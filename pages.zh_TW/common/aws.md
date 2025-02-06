@@ -1,7 +1,7 @@
 # aws
 
 > Amazon Web Services 官方的命令列介面工具。
-> 此命令也有關於其子命令的文件，例如：`aws s3`.
+> 此命令也有關於其子命令的文件，例如：`s3`.
 > 更多資訊：<https://aws.amazon.com/cli>.
 
 - 設定 AWS 命令列：
@@ -11,10 +11,6 @@
 - 使用 SSO 設定 AWS 命令​​列：
 
 `aws configure sso`
-
-- 查看 AWS 指令​​的說明：
-
-`aws {{AWS指令}} help`
 
 - 取得呼叫者身分（用於排除權限問題）：
 
@@ -30,8 +26,12 @@
 
 - 取得 AWS 互動式精靈：
 
-`aws {{指令}} wizard {{精靈名稱}}`
+`aws dynamodb wizard {{精靈名稱}}`
 
 - 產生 JSON CLI 骨架（對於基礎設施即程式碼有用）：
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- 查看 AWS 指令​​的說明：
+
+`aws {{AWS指令}} help`

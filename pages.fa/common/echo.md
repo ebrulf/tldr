@@ -1,7 +1,7 @@
 # echo
 
 > چاپ ورودی داده شده.
-> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/echo>.
+> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html>.
 
 - چاپ پیام ورودی. نکته : استفاده از علامت نقل قول انتخابی است:
 
@@ -17,11 +17,11 @@
 
 - افزودن یک پیام به انتهای یک فایل:
 
-`echo "{{سلام دنیا}}" >> {{فایل.متنی}}`
+`echo "{{سلام دنیا}}" >> {{file.txt}}`
 
 - فعال کردن تفسیر کاراکترهای خاص، برای مثال tab:
 
-`echo -e "{{ستون 1\tستون 2}}"`
+`echo -e "{{Column 1\tColumn 2}}"`
 
 - چاپ وضعیت خروج آخرین دستور اجرا شده (نکته: معادل های این دستور در ویندور به ترتیب echo %errorlevel% و $lastexitcode هستند.) :
 

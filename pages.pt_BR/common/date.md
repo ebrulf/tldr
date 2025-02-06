@@ -1,7 +1,7 @@
 # date
 
 > Define ou exibe a data do sistema.
-> Mais informações: <https://www.gnu.org/software/coreutils/date>.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/date-invocation.html>.
 
 - Exibe a data atual usando o formato padrão de localidade:
 
@@ -25,7 +25,7 @@
 
 - Exibe a data atual usando o formato RFC-3339 (`YYYY-MM-DD hh:mm:ss TZ`):
 
-`date --rfc-3339=s`
+`date --rfc-3339 s`
 
 - Define a data atual usando o formato `MMDDhhmmYYYY.ss` (`YYYY` e `.ss` são opcionais):
 

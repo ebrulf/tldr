@@ -2,9 +2,9 @@
 
 > A LaTeX formula preprocessor for HTML files.
 > It converts LaTeX formulas to images.
-> More information: <https://humenda.github.io/GladTeX/manpage.html/>.
+> More information: <https://manned.org/gladtex.1>.
 
-- Convert to html:
+- Convert to HTML:
 
 `gladtex {{path/to/input.htex}}`
 

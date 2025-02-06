@@ -1,7 +1,7 @@
 # 7zr
 
 > Bestandsarchiver met een hoge compressieverhouding.
-> Vergelijkbaar met `7z`, behalve dat het alleen `.7z`-bestanden ondersteunt.
+> Vergelijkbaar met `7z`, behalve dat het alleen 7z-bestanden ondersteunt.
 > Meer informatie: <https://manned.org/7zr>.
 
 - Archiveer een bestand of map:
@@ -24,10 +24,10 @@
 
 `7zr x {{pad/naar/archief.7z}} -so`
 
-- Lijst de inhoud van een archief op:
+- Geef een [l]ijst met de inhoud van het archiefbestand:
 
 `7zr l {{pad/naar/archief.7z}}`
 
-- Maak een lijst van beschikbare archieftypen:
+- Zet het niveau van compressie (hoger betekent meer compressie, maar langzamer):
 
-`7zr i`
+`7zr a {{pad/naar/archief.7z}} -mx={{0|1|3|5|7|9}} {{pad/naar/bestand_of_map}}`

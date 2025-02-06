@@ -1,12 +1,12 @@
 # auvaltool
 
 > Herramienta de validación AudioUnit para Mac.
-> Más información: <https://www.unix.com/man-page/mojave/1/auvaltool>.
+> Más información: <https://keith.github.io/xcode-man-pages/auvaltool.1.html>.
 
 - Lista todas las AudioUnits disponibles de cualquier tipo:
 
 `auvaltool -a`
 
-- Lista todas las AudioUnits [a]vailable de cualquier tipo con su [l]ocalización:
+- Lista todas las AudioUnits utiliz[a]bles de cualquier tipo con su [l]ocalización:
 
 `auvaltool -al`

@@ -2,7 +2,7 @@
 
 > इवेंट लॉग में कस्टम प्रविष्टियाँ बनाएँ।
 > इवेंट आईडी 1 और 1000 के बीच कोई भी संख्या हो सकती है।
-> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate>.
+> अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate>।
 
 - लॉग में दी गई आईडी (1-1000) के साथ एक नया ईवेंट बनाएं:
 
@@ -18,4 +18,4 @@
 
 - रिमोट मशीन के इवेंट लॉग में एक इवेंट बनाएं:
 
-`eventcreate /s {{होस्ट का नाम}} /u {{उपयोगकर्ता नाम}} /p {{पासवर्ड}} /t {{प्रकार}} /id {{आईडी}} /d "{{संदेश}}"`
+`eventcreate /s {{होस्ट का नाम}} /u {{उपयोगकर्ता_नाम}} /p {{पासवर्ड}} /t {{प्रकार}} /id {{आईडी}} /d "{{संदेश}}"`

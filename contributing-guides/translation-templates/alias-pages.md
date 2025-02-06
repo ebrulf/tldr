@@ -165,7 +165,7 @@ The templates can be changed when necessary.
 
 > Este comando es un alias de `example`.
 
-- Ver documentación para el comando original:
+- Vea la documentación para el comando original:
 
 `tldr example`
 ```
@@ -193,7 +193,7 @@ The templates can be changed when necessary.
 
 > Tämä komento on `example`:n alias.
 
-- Katso alkuperäisen komennon dokumentaatiossa:
+- Näytä alkuperäisen komennon dokumentaatio:
 
 `tldr example`
 ```
@@ -235,7 +235,7 @@ The templates can be changed when necessary.
 
 > Perintah ini merupakan alias dari `example`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr example`
 ```
@@ -373,9 +373,9 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> Este comando é um pseudônimo de `example`.
+> Este comando é um apelido de `example`.
 
-- Ver documentação sobre o comando original:
+- Veja documentação sobre o comando original:
 
 `tldr example`
 ```
@@ -426,7 +426,15 @@ The templates can be changed when necessary.
 
 ### sh
 
-Not translated yet.
+```markdown
+# example
+
+> Ova komanda je pseudonim za `example`.
+
+- Pogledaj dokumentaciju za originalnu komandu:
+
+`tldr example`
+```
 
 ---
 

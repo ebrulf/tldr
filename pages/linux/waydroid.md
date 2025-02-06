@@ -1,6 +1,6 @@
 # waydroid
 
-> A container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu.
+> A container-based approach to boot a full Android system on a regular Linux system like Ubuntu.
 > More information: <https://docs.waydro.id>.
 
 - Start Waydroid:
@@ -9,7 +9,7 @@
 
 - Initialize Waydroid (required on first run or after reinstalling Android):
 
-`waydroid init`
+`sudo waydroid init`
 
 - Install a new Android app from a file:
 
@@ -25,4 +25,12 @@
 
 - Manage the Waydroid container:
 
-`waydroid container {{start|stop|restart|freeze|unfreeze}}`
+`sudo waydroid container {{start|stop|restart|freeze|unfreeze}}`
+
+- Open Waydroid shell:
+
+`sudo waydroid shell`
+
+- Adjust Waydroid window dimensions:
+
+`waydroid prop set persist.waydroid.{{width|height}} {{number}}`

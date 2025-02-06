@@ -1,8 +1,8 @@
 # acme.sh
 
-> ACME ক্লায়েন্ট প্রোটোকল প্রয়োজনীয় স্ক্রিপ্ট, certbot এর একটি বিকল্প।
+> ACME ক্লায়েন্ট প্রোটোকল প্রয়োজনীয় স্ক্রিপ্ট, `certbot` এর একটি বিকল্প।
 > `acme.sh dns` দেখুন।
-> আরও তথ্য পেতে: <https://github.com/acmesh-official/acme.sh>.
+> আরও তথ্য পাবেন: <https://github.com/acmesh-official/acme.sh>।
 
 - ওয়েবরুট মোড ব্যবহার করে একটি সার্টিফিকেট ইস্যু করুন:
 
@@ -30,4 +30,4 @@
 
 - নির্দিষ্ট অবস্থানে সার্টিফিকেট ফাইল ইনস্টল করুন (স্বয়ংক্রিয় সার্টিফিকেট পুনরারম্ভের জন্য উপযুক্ত):
 
-`acme.sh --install-cert -d {{example.com}} --key-file {{/পথ/থেকে/উদাহরণ.কম.কি}} --fullchain-file {{/পথ/থেকে/উদাহরণ.কম.সিআর}} --reloadcmd {{"systemctl force-reload nginx"}}`
+`acme.sh --install-cert -d {{example.com}} --key-file {{/পথ/থেকে/উদাহরণ.কম.কি}} --fullchain-file {{/পথ/থেকে/উদাহরণ.কম.সিআর}} --reloadcmd "{{systemctl force-reload nginx}}"`
